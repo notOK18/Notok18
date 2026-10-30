@@ -1,12 +1,5 @@
 export const GITHUB = 'https://github.com/notOK18'
 
-export const stats = [
-  { num: <>1%<small> → </small>100%</>, label: 'Gross-total accuracy on 414 real invoices at EDM' },
-  { num: '0.99', label: 'Balanced accuracy of the review-routing model' },
-  { num: '5', label: 'Desktop automations shipped to replace manual spreadsheet work at Catafago' },
-  { num: <>~1<small> hr/day</small></>, label: 'Manual analysis removed by the Touch network-data agent' },
-]
-
 export const jobs = [
   {
     when: 'Jun – Aug 2026',

@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { GITHUB, stats, jobs, projects, programming, languages } from './data.jsx'
+import { GITHUB, jobs, projects, programming, languages } from './data.jsx'
 
 const ext = { target: '_blank', rel: 'noopener' }
 
@@ -58,15 +58,6 @@ function Experience() {
       <div className="sec-head">
         <h2>Experience</h2>
         <p>Internships where I shipped working tools to real teams, most recent first.</p>
-      </div>
-      <p className="glance">Results at a glance</p>
-      <div className="impact" aria-label="Results at a glance">
-        {stats.map((s, i) => (
-          <div className="stat" key={i}>
-            <div className="num">{s.num}</div>
-            <p>{s.label}</p>
-          </div>
-        ))}
       </div>
       <div className="ledger">
         {jobs.map((job) => (
