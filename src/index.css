@@ -160,6 +160,7 @@ section.block { padding-block: clamp(56px, 8vw, 96px) 0; }
   font-family: var(--mono); font-size: 12px; background: transparent; color: var(--paper);
   border: 1px solid color-mix(in srgb, var(--paper) 35%, transparent); border-radius: 999px; padding: 5px 11px; cursor: pointer; flex-shrink: 0;
 }
+.copy { text-decoration: none; }
 .copy:hover { background: var(--paper); color: var(--ink); }
 footer { padding-block: 0 40px; color: var(--muted); font-size: 13px; font-family: var(--mono); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 
